@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/potato" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle1"
+        android:text="Potatos"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@id/imageView1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDesc1"
+        android:layout_below="@+id/txtTitle1"
+        android:layout_alignLeft="@+id/txtTitle1"
+        android:text="Available"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

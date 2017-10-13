@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="compiindshift.prasad36.veggieskart2.KothrudFarmer">
+    <TextView
+        android:id="@+id/Show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Farmers Nearby Kothrud"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/puneicon"
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Show"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/Mr.Kamble"
+        android:layout_below="@+id/puneicon"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Mr.Kamble"
+        android:textSize="30dp"/>
+    <ImageView
+        android:id="@+id/kothrudicon"
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Mr.Kamble"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/Mr.Chavan"
+        android:layout_below="@+id/kothrudicon"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Mr.Chavan"
+        android:textSize="30dp"/>
+    <ImageView
+        android:id="@+id/campicon"
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Mr.Chavan"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/Mr.Patil"
+        android:layout_below="@+id/campicon"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Mr.Patil"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/Prev"
+        android:layout_below="@+id/Mr.Patil"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:textSize="30dp"/>
+</RelativeLayout>

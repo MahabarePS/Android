@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="compiindshift.prasad36.veggieskart2.ChooseLocation">
+
+    <TextView
+        android:id="@+id/Show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Nearby Location"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/puneicon"
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Show"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/pune"
+        android:layout_below="@+id/puneicon"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Pune"
+        android:textSize="30dp"/>
+    <ImageView
+        android:id="@+id/kothrudicon"
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pune"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/kothrud"
+        android:layout_below="@+id/kothrudicon"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Kothrud"
+        android:textSize="30dp"/>
+    <ImageView
+        android:id="@+id/campicon"
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/kothrud"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/camp"
+        android:layout_below="@+id/campicon"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Camp"
+        android:textSize="30dp"/>
+</RelativeLayout>
